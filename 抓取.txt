@@ -1,0 +1,14 @@
+(function () {
+  const sels = [
+    '.groupBlock .groupTitle a',
+    '.groupBlock a[href*="/groups/"]',
+    'a.linkTitle[href*="/groups/"]',
+    'a[href^="https://steamcommunity.com/groups/"]'
+  ];
+  let as = [];
+  for (const s of sels) { as = [...document.querySelectorAll(s)]; if (as.length) break; }
+  const links = [...new Set(as.map(a => new URL(a.getAttribute('href'), location.origin).href.split('?')[0]))]
+    .filter(h => /^https:\/\/steamcommunity\.com\/groups\/[^\/]+\/?$/.test(h));
+  console.log(links.length, 'groups'); 
+  console.log(links.join('\n'));
+})();

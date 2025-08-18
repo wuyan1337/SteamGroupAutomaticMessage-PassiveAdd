@@ -1,0 +1,1 @@
+python open_groups.py --file groups.txt --delay 4
