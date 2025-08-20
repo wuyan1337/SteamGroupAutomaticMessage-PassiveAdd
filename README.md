@@ -1,3 +1,19 @@
+升级为一体自动化了
+https://github.com/wuyan1337/SteamEchoPoster-SEP
+https://github.com/wuyan1337/SteamEchoPoster-SEP
+https://github.com/wuyan1337/SteamEchoPoster-SEP
+
+
+
+
+
+
+
+
+
+
+
+
 # SteamGroupAutomaticMessage-PassiveAdd
 这是一个基于Steam组批量自动留言来达到Steam被动扩列的脚本
 本脚本速度基于组的数量与品质 和脚本本身无关。
